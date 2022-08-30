@@ -11,57 +11,57 @@ const Contact = () => {
   return (
     <>
         <Header/>
-        <section class="py-5">
-            <div class="container px-5">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8">
+        <section className="py-5">
+            <div className="container px-5">
+                <div className="row justify-content-center">
+                    <div className="col-lg-8">
 
-                        <div class="text-center my-5">
-                            <h2 class="fw-bolder mb-3">Hubungi kami</h2>
-                            <p class="mb-5">Tertarik untuk melakukan kerjasama dengan kami, silahkan hubungi </p>
+                        <div className="text-center my-5">
+                            <h2 className="fw-bolder mb-3">Hubungi kami</h2>
+                            <p className="mb-5">Tertarik untuk melakukan kerjasama dengan kami, silahkan hubungi </p>
                         </div>
 
-                        <div class="biru text-white">
-                            <form class="py-5 px-5" method="post">
-                                <h3 class="mb-5 text-center">Tinggalkan Pesan</h3>
-                                <div class="form-group row">
-                                    <label for="id_nama" class="col-sm-4 col-form-label">Nama</label>
-                                    <div class="col-sm-8">
+                        <div className="biru text-white">
+                            <form className="py-5 px-5" method="post">
+                                <h3 className="mb-5 text-center">Tinggalkan Pesan</h3>
+                                <div className="form-group row">
+                                    <label className="col-sm-4 col-form-label">Nama</label>
+                                    <div className="col-sm-8">
                                         <input 
                                             type="text" 
                                             name="name" 
-                                            maxlength="255" 
+                                            maxLength="255" 
                                             required="" 
                                             id="id_nama" 
-                                            class="form-control mb-3"/>
+                                            className="form-control mb-3"/>
                                     </div>
                                 </div>
-                                <div class="form-group row mb-2">
-                                    <label for="id_email" class="col-sm-4 col-form-label">Email</label>
-                                    <div class="col-sm-8">
+                                <div className="form-group row mb-2">
+                                    <label className="col-sm-4 col-form-label">Email</label>
+                                    <div className="col-sm-8">
                                         <input 
                                             type="email" 
                                             name="email" 
                                             required="" 
                                             id="id_email"
-                                            class="form-control mb-3"/>
+                                            className="form-control mb-3"/>
                                     </div>
                                 </div>
-                                <div class="form-group row mb-2">
-                                    <label for="id_email" class="col-sm-4 col-form-label">Tulis Pesan</label>
-                                    <div class="col-sm-8">
+                                <div className="form-group row mb-2">
+                                    <label  className="col-sm-4 col-form-label">Tulis Pesan</label>
+                                    <div className="col-sm-8">
                                         <textarea 
                                             name="message" 
                                             cols="40" 
                                             rows="10" 
                                             required="" 
                                             id="id_pesan" 
-                                            class="form-control mb-3">
+                                            className="form-control mb-3">
                                         </textarea>
                                     </div>
                                 </div>
-                                <div class="d-flex justify-content-end">
-                                    <input type="submit" value="Kirim" class="btn btn-light"/>
+                                <div className="d-flex justify-content-end">
+                                    <input type="submit" value="Kirim" className="btn btn-light"/>
                                 </div>
                             </form>
                         </div>
@@ -70,35 +70,35 @@ const Contact = () => {
             </div>
         </section>
 
-        <section class="py-5 bg-light">
-            <div class="container px-5 my-5">
-                <div class="row gx-5 align-items-center">
+        <section className="py-5 bg-light">
+            <div className="container px-5 my-5">
+                <div className="row gx-5 align-items-center">
 
-                    <div class="col-6">
-                        <Image class="img-fluid rounded mb-5 mb-lg-0" src={contact}/>
+                    <div className="col-6">
+                        <Image className="img-fluid rounded mb-5 mb-lg-0" src={contact}/>
                     </div>
 
-                    <div class="col-6 text-left">
-                        <div class="row mb-3 img10">
+                    <div className="col-6 text-left">
+                        <div className="row mb-3 img10">
                             <Image src={placeholder}/>
                         </div>
-                        <div class="row mb-3">
+                        <div className="row mb-3">
                             <p>Jl. Bangka Raya No.17, RT.13/RW.1, Bangka,
                                 <br/>Kec. Mampang Prpt, Kota Jakarta Selatan,
                                 <br/> Daerah Khusus Ibukota Jakarta 12730
                                 <br/>Telp. 0857-7979-3635
                             </p>
                         </div>
-                        <div class="row mb-3 img10">
+                        <div className="row mb-3 img10">
                             <Image src={whatsapp}/>
                         </div>
-                        <div class="row mb-3">
+                        <div className="row mb-3">
                             <p>0857-7979-3635<br/>Whatsapp</p>
                         </div>
-                        <div class="row mb-3 img10">
+                        <div className="row mb-3 img10">
                             <Image src={gmail}/>                          
                         </div>
-                        <div class="row">
+                        <div className="row">
                             <p>support@metalit.id</p>
                         </div>
                     </div>
