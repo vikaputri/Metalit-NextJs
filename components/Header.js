@@ -6,7 +6,7 @@ export default function Header() {
           //Navigasi
           <nav className="navbar navbar-expand-lg navbar-light mb-3">
             <div className="container">
-              <a className="navbar-brand" href="">
+              <a className="navbar-brand" href="/">
                 <Image width={120} height={50} src={logo}/>
               </a>
 
