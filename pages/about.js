@@ -34,7 +34,11 @@ const About = () => {
                         <p className="text-muted mb-4">Menghasilkan talent IT yang siap kerja dengan skill yang mengikuti standar industri dan menggunakan teknologi masa kini.</p>
                     </div>
                     <div className="col-lg-4">
-                        <Image className="img-fluid rounded mb-5 mb-lg-0" src={about1}/>
+                        <Image 
+                            className="img-fluid rounded mb-5 mb-lg-0" 
+                            src={about1}
+                            loading="lazy"
+                        />
                     </div>
                 </div>
             </div>
@@ -44,7 +48,11 @@ const About = () => {
             <div className="container px-5 my-5">
                 <div className="row gx-5 align-items-center">
                     <div className="col-lg-4">
-                        <Image className="img-fluid rounded mb-5 mb-lg-0" src={about2}/>
+                        <Image 
+                            className="img-fluid rounded mb-5 mb-lg-0" 
+                            src={about2}
+                            loading="lazy"
+                        />
                     </div>
 
                     <div className="col-lg-8">
@@ -52,7 +60,11 @@ const About = () => {
                         <div className="row gx-5 row-cols-1 row-cols-md-2">
                             <div className="col mb-5 h-100">
                                 <div className="feature mb-2">
-                                    <Image className="img95" src={work1}/>
+                                    <Image 
+                                        className="img95" 
+                                        src={work1}
+                                        loading="lazy"
+                                    />
                                 </div>
                                 <h2 className="h5">Pelatihan</h2>
                                 <p className="mb-0">Memberikan pelatihan menggunakan metode dan teknologi sesuai dengan standar industri masa kini.</p>
@@ -60,7 +72,11 @@ const About = () => {
 
                             <div className="col mb-5 h-100">
                                 <div className="feature mb-2">
-                                    <Image className="img95" src={work2}/>
+                                    <Image 
+                                        className="img95" 
+                                        src={work2}
+                                        loading="lazy"
+                                    />
                                 </div>
                                 <h2 className="h5">Kerjasama dengan perusahaan</h2>
                                 <p className="mb-0">Menjalin kerja sama dengan perusahaann untuk menyalurkan para pencari kerja</p>
@@ -68,7 +84,11 @@ const About = () => {
 
                             <div className="col mb-5 mb-md-0 h-100">
                                 <div className="feature mb-2">
-                                    <Image className="img95" src={work3}/>
+                                    <Image 
+                                        className="img95" 
+                                        src={work3}
+                                        loading="lazy"
+                                    />
                                 </div>
                                 <h2 className="h5">Mengikuti Perkembangan</h2>
                                 <p className="mb-0">Metalit berusaha untuk selalu up to date dengan perkambangan teknologi dalam industri IT</p>
@@ -76,7 +96,11 @@ const About = () => {
 
                             <div className="col h-100">
                                 <div className="feature mb-2">
-                                    <Image className="img95" src={work4}/>
+                                    <Image 
+                                        className="img95" 
+                                        src={work4}
+                                        loading="lazy"
+                                    />
                                 </div>
                                 <h2 className="h5">Pengembangan Platform</h2>
                                 <p className="mb-0">Platform Metalit akan selalu berkembang sesuai dengan kebutuhan pengguna</p>

@@ -16,7 +16,11 @@ const PrivacyPolicy = () => {
                         <p className="privacy-content">
                             Content
                         </p>
-                        <Image className="img-fluid rounded mb-5 mb-lg-0" src={privacy}/>
+                        <Image 
+                            className="img-fluid rounded mb-5 mb-lg-0" 
+                            src={privacy}
+                            loading="lazy"
+                        />
                     </div>
                 </div>
             </div>

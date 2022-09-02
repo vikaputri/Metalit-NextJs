@@ -10,14 +10,14 @@ export default function Header() {
                         <li>
                             <a 
                                 className="text-reset text-decoration-none" 
-                                href="/">
+                                href="help">
                                 Pusat Bantuan
                             </a>
                         </li>
                         <li>
                             <a 
                                 className="text-reset text-decoration-none" 
-                                href="/"
+                                href="about"
                             >
                                 Tentang Kami
                             </a>
@@ -25,7 +25,7 @@ export default function Header() {
                         <li>
                             <a 
                                 className="text-reset text-decoration-none" 
-                                href="/"
+                                href="contact"
                             >
                                 Hubungi Kami
                             </a>
@@ -33,7 +33,7 @@ export default function Header() {
                         <li>
                             <a 
                                 className="text-reset text-decoration-none" 
-                                href="/"
+                                href="term-conditions"
                             >
                                 Syarat dan Ketentuan
                             </a>
@@ -41,7 +41,7 @@ export default function Header() {
                         <li>
                             <a 
                                 className="text-reset text-decoration-none" 
-                                href="/"
+                                href="privacy-policy"
                             >
                                 Kebijakan Privasi
                             </a>

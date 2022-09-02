@@ -16,7 +16,11 @@ const TermConditions = () => {
                         <p className="privacy-content">
                             content
                         </p>
-                        <Image className="img-fluid rounded mb-5 mb-lg-0" src={term}/>
+                        <Image 
+                            className="img-fluid rounded mb-5 mb-lg-0" 
+                            src={term}
+                            loading="lazy"
+                        />
                     </div>
                 </div>
             </div>

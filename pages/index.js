@@ -30,7 +30,10 @@ const HomePage = () => {
               </div>
             </div>
             <div className="col-xl-5 col-xxl-6">
-              <Image className="img-fluid" src={pair}/>
+              <Image 
+                className="img-fluid" 
+                src={pair}
+                loading="lazy"/>
               <a 
                 href="https://storyset.com/web" 
                 className="text-decoration-none text-muted"
@@ -48,7 +51,11 @@ const HomePage = () => {
           <div className="row gx-5 align-items-center">
             
             <div className="col-lg-6 mb-5">
-              <Image className="img-fluid" src={yoho}/>
+              <Image 
+                className="img-fluid" 
+                src={yoho}
+                loading="lazy"
+              />
               <a 
                 href="https://www.freepik.com/vectors/abstract" 
                 className="text-decoration-none text-muted"
@@ -93,7 +100,11 @@ const HomePage = () => {
               </div>
             </div>
             <div className="col-lg-6">
-              <Image className="img-fluid" src={yuhu}/>
+              <Image 
+                className="img-fluid" 
+                src={yuhu}
+                loading="lazy"
+              />
               <a 
                 href="http://www.freepik.com" 
                 className="text-decoration-none text-muted"
@@ -116,7 +127,7 @@ const HomePage = () => {
               <div className="card">
                 <div className="card-body">
                   <h4 className="card-title">
-                    <Image src={quote}/>
+                    <Image src={quote} loading="lazy"/>
                   </h4>
                   <p>
                     Naik gaji 30% setelah bersama metalit belajar skill python, js, git, sql dan 
@@ -125,7 +136,11 @@ const HomePage = () => {
                   <hr/>
                   <div className="row">
                     <div className="col-md-2">
-                      <Image className="avatar-img rounded-circle" src={dea}/>
+                      <Image 
+                        className="avatar-img rounded-circle" 
+                        src={dea}
+                        loading="lazy"
+                      />
                     </div>
                     <div className="col-md-10 px-5 col-sm-0">
                       <div className="profile">
@@ -142,7 +157,7 @@ const HomePage = () => {
               <div className="card">
                 <div className="card-body">
                   <h4 className="card-title">
-                    <Image src={quote}/>
+                    <Image src={quote} loading="lazy"/>
                   </h4>
                   <p>
                     Diterima magang di xendit setelah belajar membuat aplikasi web dengan python dan menggunakan git bersama metalit
@@ -150,7 +165,11 @@ const HomePage = () => {
                   <hr/>
                   <div className="row">
                     <div className="col-md-2">
-                      <Image className="avatar-img rounded-circle" src={fadel}/>
+                      <Image 
+                        className="avatar-img rounded-circle" 
+                        src={fadel}
+                        loading="lazy"
+                      />
                     </div>
                     <div className="col-md-10 px-5 col-sm-0">
                       <div className="profile">
@@ -182,7 +201,7 @@ const HomePage = () => {
                     diterapkan ke murid-murid sebelumnya
                   </p>
                 </div> <div className="offset-xl-1 col-xl-5 col-lg-5 col-12 mb-6 mb-lg-0 order-lg-2 text-center ">
-                  <Image alt="" height="220px" src={unnamed2}/>
+                  <Image height="220px" src={unnamed2} loading="lazy" alt=""/>
                 </div>        
               </div>
             </div>
