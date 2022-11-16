@@ -56,7 +56,7 @@ const Course = () => {
                                                 value="1" 
                                                 required="" 
                                                 id="id_0"/>
-                                            <label className="form-check-label" for="id_0">Laki-laki</label>
+                                            <label className="form-check-label">Laki-laki</label>
                                         </div>
                                         <div className="form-check">
                                             <input 
@@ -66,7 +66,7 @@ const Course = () => {
                                                 value="2" 
                                                 required="" id="id_1"
                                             />
-                                            <label className="form-check-label" for="id_1">Perempuan</label>
+                                            <label className="form-check-label">Perempuan</label>
                                         </div>
                                     </div>
                                 </div>
@@ -139,7 +139,7 @@ const Course = () => {
                                     className="btn btn-light"
                                 >
                                     Kirim
-                                    </button>
+                                </button>
                             </div>
                         </form>
                     </div>
