@@ -103,7 +103,7 @@ const Course = () => {
                             </div>
 
                             <div className="form-group row mb-2">
-                                <label for="id_jurusan" className="col-sm-4 col-form-label">Jurusan</label>
+                                <label className="col-sm-4 col-form-label">Jurusan</label>
                                 <div className="col-sm-8">
                                     <input 
                                         type="text" 

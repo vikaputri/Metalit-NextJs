@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function Header() {
     return (
         <footer className="bg-dark py-4 text-white">

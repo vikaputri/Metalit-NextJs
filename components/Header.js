@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import logo from "../images/logo-metalit-black.png";
+import Link from 'next/link'
 
 export default function Header() {
     return (
