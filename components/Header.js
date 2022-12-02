@@ -31,12 +31,12 @@ export default function Header() {
               <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                   <li className="nav-item text-uppercase px-2">
-                    <Link href="/">
+                    <Link href="">
                       <a className="nav-a text-reset text-decoration-none">Belajar</a>
                     </Link>
                   </li>
                   <li className="nav-item text-uppercase px-2">
-                    <Link href="/">
+                    <Link href="">
                       <a className="nav-a text-reset text-decoration-none">Blog</a>
                     </Link>
                   </li>
