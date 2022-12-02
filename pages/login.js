@@ -18,7 +18,7 @@ const Login = () => {
                             <form className="py-5 px-5" autoComplete="off">
                                 <h3 className="mb-4 text-center">Login</h3>
                                 <div className="row mb-3">
-                                    <Link href="https://www.google.com/">
+                                    <Link href="">
                                         <a className="btn btn-light" >
                                             <Image src={logo} alt={logo}/> Masuk dengan Google 
                                         </a>

@@ -1,18 +1,20 @@
 import Image from 'next/image'
 import logo from "../images/logo-metalit-black.png";
+import Link from 'next/link'
 
 export default function Header() {
     return (
-          //Navigasi
           <nav className="navbar navbar-expand-lg navbar-light mb-3">
             <div className="container">
-              <a className="navbar-brand" href="/">
-                <Image 
-                  width={120} 
-                  height={50} 
-                  src={logo} 
-                  alt={logo}/>
-              </a>
+              <Link href="">
+                <a className="navbar-brand" href="/">
+                  <Image 
+                    width={120} 
+                    height={50} 
+                    src={logo} 
+                    alt={logo}/>
+                </a>
+              </Link>
 
               <button 
                 className="navbar-toggler" 
@@ -29,16 +31,24 @@ export default function Header() {
               <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                   <li className="nav-item text-uppercase px-2">
-                    <a className="nav-a" href="/">Belajar</a>
+                    <Link href="/">
+                      <a className="nav-a text-reset text-decoration-none">Belajar</a>
+                    </Link>
                   </li>
                   <li className="nav-item text-uppercase px-2">
-                    <a className="nav-a" href="/">Blog</a>
+                    <Link href="/">
+                      <a className="nav-a text-reset text-decoration-none">Blog</a>
+                    </Link>
                   </li>
                   <li className="nav-item text-uppercase px-2">
-                    <a className="nav-a" href="login">Login</a>
+                    <Link href="login">
+                      <a className="nav-a nav-a text-reset text-decoration-none">Login</a>
+                    </Link>
                   </li>
                   <li className="nav-item text-uppercase px-2">
-                    <a className="nav-a " href="course">Daftar</a>
+                    <Link href="course">
+                      <a className="nav-a nav-a text-reset text-decoration-none">Daftar</a>
+                    </Link>
                   </li>
                 </ul>
               </div>
