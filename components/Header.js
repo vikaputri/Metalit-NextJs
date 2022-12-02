@@ -6,8 +6,8 @@ export default function Header() {
     return (
           <nav className="navbar navbar-expand-lg navbar-light mb-3">
             <div className="container">
-              <Link href="">
-                <a className="navbar-brand" href="/">
+              <Link href="/">
+                <a className="navbar-brand">
                   <Image 
                     width={120} 
                     height={50} 
