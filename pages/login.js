@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Image from 'next/image'
 import logo from "../images/google-logo.png";
+import Link from 'next/link'
 
 const Login = () => {
   return (
@@ -17,9 +18,11 @@ const Login = () => {
                             <form className="py-5 px-5" autoComplete="off">
                                 <h3 className="mb-4 text-center">Login</h3>
                                 <div className="row mb-3">
-                                    <a className="btn btn-light" href="">
-                                        <Image src={logo} alt={logo}/> Masuk dengan Google 
-                                    </a>
+                                    <Link href="https://www.google.com/">
+                                        <a className="btn btn-light" >
+                                            <Image src={logo} alt={logo}/> Masuk dengan Google 
+                                        </a>
+                                    </Link>
                                 </div>
                                 <div className="row mb-2">
                                     <p  className="text-center">--- atau ---</p>
@@ -49,15 +52,15 @@ const Login = () => {
                                 <hr className="hr"/>
 
                                 <p className="text-center">
-                                    <a
-                                        className="btn btn-a text-reset" 
-                                        href="">
-                                        Lupa kata sandi?
-                                    </a>
+                                    <Link href="">
+                                        <a className="btn btn-a text-reset">Lupa kata sandi?</a>
+                                    </Link>
                                 </p>
                                 <div className="text-center">
                                     <p>Belum punya akun?
-                                        <a className="text-reset" href="signup"><u>Daftar disini</u></a>
+                                        <Link href="signup">
+                                            <a className="text-reset" ><u>Daftar disini</u></a>
+                                        </Link>
                                     </p>
                                 </div>
                             </form>
