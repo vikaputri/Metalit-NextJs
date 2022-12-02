@@ -20,6 +20,7 @@ const TermConditions = () => {
                             className="img-fluid rounded mb-5 mb-lg-0" 
                             src={term}
                             loading="lazy"
+                            alt={term}
                         />
                     </div>
                 </div>

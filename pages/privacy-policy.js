@@ -20,6 +20,7 @@ const PrivacyPolicy = () => {
                             className="img-fluid rounded mb-5 mb-lg-0" 
                             src={privacy}
                             loading="lazy"
+                            alt={privacy}
                         />
                     </div>
                 </div>

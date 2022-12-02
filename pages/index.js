@@ -33,7 +33,8 @@ const HomePage = () => {
               <Image 
                 className="img-fluid" 
                 src={pair}
-                loading="lazy"/>
+                loading="lazy"
+                alt={pair}/>
               <a 
                 href="https://storyset.com/web" 
                 className="text-decoration-none text-muted"
@@ -54,6 +55,7 @@ const HomePage = () => {
               <Image 
                 className="img-fluid" 
                 src={yoho}
+                alt={yoho}
                 loading="lazy"
               />
               <a 
@@ -103,6 +105,7 @@ const HomePage = () => {
               <Image 
                 className="img-fluid" 
                 src={yuhu}
+                alt={yuhu}
                 loading="lazy"
               />
               <a 
@@ -127,7 +130,7 @@ const HomePage = () => {
               <div className="card">
                 <div className="card-body">
                   <h4 className="card-title">
-                    <Image src={quote} loading="lazy"/>
+                    <Image src={quote} loading="lazy" alt={quote}/>
                   </h4>
                   <p>
                     Naik gaji 30% setelah bersama metalit belajar skill python, js, git, sql dan 
@@ -140,6 +143,7 @@ const HomePage = () => {
                         className="avatar-img rounded-circle" 
                         src={dea}
                         loading="lazy"
+                        alt={dea}
                       />
                     </div>
                     <div className="col-md-10 px-5 col-sm-0">
@@ -157,7 +161,7 @@ const HomePage = () => {
               <div className="card">
                 <div className="card-body">
                   <h4 className="card-title">
-                    <Image src={quote} loading="lazy"/>
+                    <Image src={quote} loading="lazy" alt={quote}/>
                   </h4>
                   <p>
                     Diterima magang di xendit setelah belajar membuat aplikasi web dengan python dan menggunakan git bersama metalit
@@ -169,6 +173,7 @@ const HomePage = () => {
                         className="avatar-img rounded-circle" 
                         src={fadel}
                         loading="lazy"
+                        alt={fadel}
                       />
                     </div>
                     <div className="col-md-10 px-5 col-sm-0">
@@ -201,7 +206,7 @@ const HomePage = () => {
                     diterapkan ke murid-murid sebelumnya
                   </p>
                 </div> <div className="offset-xl-1 col-xl-5 col-lg-5 col-12 mb-6 mb-lg-0 order-lg-2 text-center ">
-                  <Image height="220px" src={unnamed2} loading="lazy" alt=""/>
+                  <Image height="220px" src={unnamed2} loading="lazy" alt={unnamed2}/>
                 </div>        
               </div>
             </div>

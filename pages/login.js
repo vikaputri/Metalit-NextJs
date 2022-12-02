@@ -18,7 +18,7 @@ const Login = () => {
                                 <h3 className="mb-4 text-center">Login</h3>
                                 <div className="row mb-3">
                                     <a className="btn btn-light" href="">
-                                        <Image src={logo}/> Masuk dengan Google
+                                        <Image src={logo}/> Masuk dengan Google alt={logo}
                                     </a>
                                 </div>
                                 <div className="row mb-2">

@@ -38,6 +38,7 @@ const About = () => {
                             className="img-fluid rounded mb-5 mb-lg-0" 
                             src={about1}
                             loading="lazy"
+                            alt={about1}
                         />
                     </div>
                 </div>
@@ -52,6 +53,7 @@ const About = () => {
                             className="img-fluid rounded mb-5 mb-lg-0" 
                             src={about2}
                             loading="lazy"
+                            alt={about2}
                         />
                     </div>
 
@@ -64,6 +66,7 @@ const About = () => {
                                         className="img95" 
                                         src={work1}
                                         loading="lazy"
+                                        alt={work1}
                                     />
                                 </div>
                                 <h2 className="h5">Pelatihan</h2>
@@ -76,6 +79,7 @@ const About = () => {
                                         className="img95" 
                                         src={work2}
                                         loading="lazy"
+                                        alt={work2}
                                     />
                                 </div>
                                 <h2 className="h5">Kerjasama dengan perusahaan</h2>
@@ -88,6 +92,7 @@ const About = () => {
                                         className="img95" 
                                         src={work3}
                                         loading="lazy"
+                                        alt={work3}
                                     />
                                 </div>
                                 <h2 className="h5">Mengikuti Perkembangan</h2>
@@ -100,6 +105,7 @@ const About = () => {
                                         className="img95" 
                                         src={work4}
                                         loading="lazy"
+                                        alt={work4}
                                     />
                                 </div>
                                 <h2 className="h5">Pengembangan Platform</h2>

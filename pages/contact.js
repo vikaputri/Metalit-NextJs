@@ -79,12 +79,13 @@ const Contact = () => {
                             className="img-fluid rounded mb-5 mb-lg-0" 
                             src={contact}
                             loading="lazy"
+                            alt={contact}
                         />
                     </div>
 
                     <div className="col-6 text-left">
                         <div className="row mb-3 img10">
-                            <Image src={placeholder} loading="lazy"/>
+                            <Image src={placeholder} loading="lazy" alt={placeholder}/>
                         </div>
                         <div className="row mb-3">
                             <p>Jl. Bangka Raya No.17, RT.13/RW.1, Bangka,
@@ -94,13 +95,13 @@ const Contact = () => {
                             </p>
                         </div>
                         <div className="row mb-3 img10">
-                            <Image src={whatsapp} loading="lazy"/>
+                            <Image src={whatsapp} loading="lazy" alt={whatsapp}/>
                         </div>
                         <div className="row mb-3">
                             <p>0857-7979-3635<br/>Whatsapp</p>
                         </div>
                         <div className="row mb-3 img10">
-                            <Image src={gmail} loading="lazy"/>                          
+                            <Image src={gmail} loading="lazy" alt={gmail}/>                          
                         </div>
                         <div className="row">
                             <p>support@metalit.id</p>
