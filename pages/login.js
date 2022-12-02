@@ -3,7 +3,6 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Image from 'next/image'
 import logo from "../images/google-logo.png";
-import Link from 'next/link'
 
 const Login = () => {
   return (
@@ -18,9 +17,9 @@ const Login = () => {
                             <form className="py-5 px-5" autoComplete="off">
                                 <h3 className="mb-4 text-center">Login</h3>
                                 <div className="row mb-3">
-                                    <Link className="btn btn-light" href="">
+                                    <a className="btn btn-light" href="">
                                         <Image src={logo} alt={logo}/> Masuk dengan Google 
-                                    </Link>
+                                    </a>
                                 </div>
                                 <div className="row mb-2">
                                     <p  className="text-center">--- atau ---</p>
@@ -50,15 +49,15 @@ const Login = () => {
                                 <hr className="hr"/>
 
                                 <p className="text-center">
-                                    <Link
-                                        className="btn btn-link text-reset" 
+                                    <a
+                                        className="btn btn-a text-reset" 
                                         href="">
                                         Lupa kata sandi?
-                                    </Link>
+                                    </a>
                                 </p>
                                 <div className="text-center">
                                     <p>Belum punya akun?
-                                        <Link className="text-reset" href="signup"><u>Daftar disini</u></Link>
+                                        <a className="text-reset" href="signup"><u>Daftar disini</u></a>
                                     </p>
                                 </div>
                             </form>
